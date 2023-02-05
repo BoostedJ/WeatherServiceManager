@@ -150,7 +150,7 @@ public class WeatherServiceManager{
         oCity2.callWeatherWebService(sCity2);
 		// 4. Then make comparisons of temps between cities on each WeatherServiceManager instance by using the get methods created above:
         if(oCity1.getHighTemp() > oCity2.getHighTemp()) {
-        //		- Print out which city has the HIGHEST CURRENT TEMP (NOTE: you can get city name from your m_oWeather.
+        //		- Print out which city has the HIGHEST CURRENT TEMP (NOTE: you can get city name from your m_oWeather.)
             System.out.println("The city with the highest temp is " + oCity1.getCityName());
         } else {
             System.out.println("The city with the highest temp is " + oCity2.getCityName());
